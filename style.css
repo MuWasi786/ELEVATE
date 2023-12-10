@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  header {
+    background-color: rgba(51, 51, 51, 0.3);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo img {
+    width: 100%;
+    margin-left: 5cap;
+  }
+
+  .logo {
+    width: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+
+  .brand {
+    font-size: 34px;
+    font-weight: 600;
+    margin-right: 20px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+  }
+  .background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  @media (min-aspect-ratio:16/9){
+    .background-video{
+        width:100%;
+        height:auto;
+    }
+  }
+
+  @media (max-aspect-ratio:16/9){
+    .background-video{
+        width:auto;
+        height:100%;
+    }
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  p{
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+
+  button {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  button:hover {
+    background-color: rgb(255, 227, 115, 0.5);
+  }
+
+
+  @import url(https://fonts.google.com/specimen/Bebas+Neue)
+
