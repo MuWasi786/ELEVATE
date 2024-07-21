@@ -1,9 +1,9 @@
-<h1>HTML, JAVASCRIPT, CSS Website</h1>
+<h1>ELEVATE - Online Motivational Quote Generator - HTML, JAVASCRIPT, CSS Website</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Elevate is a dynamic and engaging web application that delivers personalized motivation at the click of a button. This project showcases a robust implementation of front-end technologies, demonstrating proficiency in JavaScript, HTML, and CSS.
 <br />
 
 
@@ -20,8 +20,8 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Home Page When Program is Launched: <br/>
+<img src="https://drive.google.com/file/d/1jigxzPI5qStgCeKP9xqKJGeTtN5Nwr_W/view?usp=sharing" height="80%" width="80%" alt="Home page"/>
 <br />
 <br />
 Select the disk:  <br/>
